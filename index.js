@@ -26,21 +26,12 @@ class Route{
 
   }
   estimatedTime(){
-    // debugger
-    // return Date.prototype.getHours
-
-    const today = new Date
-    // return today.getHours() >= 22 && today.getHours() <= 24 ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3
-    // (today.getHours() >= 5 && today.getHours() <= 10)
     if (this.blocksTravelled() > 15) {
       return this.blocksTravelled() / 2
     }else {
-      // debugger
+
       return this.blocksTravelled() / 3
     }
-
-    // return this.blocksTravelled() / 2
-
   }
 
 }
