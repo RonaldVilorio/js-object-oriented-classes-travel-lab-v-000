@@ -27,7 +27,7 @@ class Route{
   }
   estimatedTime(){
     today = Date.now
-    return today ? this.blocksTravelled() / 3 : this.blocksTravelled() / 2
+    return this.blocksTravelled() / 2
 
   }
 
