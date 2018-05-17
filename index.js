@@ -27,7 +27,7 @@ class Route{
   }
   estimatedTime(){
     startDate = new Date
-    return startDate.getDay()
+    return new Date.getDay()
     // return this.blocksTravelled() / 3
   }
 
