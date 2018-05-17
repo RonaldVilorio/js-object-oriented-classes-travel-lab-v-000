@@ -14,6 +14,7 @@ class Route{
   }
   blocksTravelled(){
     debugger
+    this.beginningLocation["horizontal"]
 
   }
 
