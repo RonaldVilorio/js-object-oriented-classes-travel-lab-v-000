@@ -26,7 +26,8 @@ class Route{
 
   }
   estimatedTime(){
-    return this.blocksTravelled() / 3
+    return Date.now
+    // return this.blocksTravelled() / 3
   }
 
 }
