@@ -26,6 +26,7 @@ class Route{
 
   }
   estimatedTime(){
+    debugger
     return Date.prototype.getDate()
     // return this.blocksTravelled() / 3
   }
