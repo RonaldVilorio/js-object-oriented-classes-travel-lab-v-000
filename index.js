@@ -15,7 +15,7 @@ class Route{
   blocksTravelled(){
     // debugger
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-    this.beginningLocation["vertical"] - this.endingLocation["vertical"]
+    return this.beginningLocation["vertical"] - this.endingLocation["vertical"]
 
 
   }
