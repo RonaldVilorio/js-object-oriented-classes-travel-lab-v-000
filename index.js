@@ -32,7 +32,7 @@ class Route{
     const today = new Date
     // return today.getHours() >= 22 && today.getHours() <= 24 ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3
 
-    if (today.getHours() >= 5 && today.getHours() <= 21){
+    if (today.getHours() >= 5 && today.getHours() <= 10 && today.getHours() >= 4 && today.getHours() <= 20){
       return this.blocksTravelled() / 2
     }else {
       return this.blocksTravelled() / 3
