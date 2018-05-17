@@ -15,12 +15,14 @@ class Route{
   blocksTravelled(){
     // debugger
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
-    const vertical = this.endingLocation["vertical"] - this.beginningLocation["vertical"] 
+
+    const vertical = this.endingLocation["vertical"] - this.beginningLocation["vertical"]
     const point_A = eastWest.indexOf(this.beginningLocation["horizontal"])
     const point_B = eastWest.indexOf(this.endingLocation["horizontal"])
 
 
     const horizontal = eastWest.slice(point_A,point_B).length
+    return vertical + horizontal
 
 
 
