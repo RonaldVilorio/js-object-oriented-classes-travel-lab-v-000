@@ -18,8 +18,8 @@ class Route{
     // return this.endingLocation["vertical"] - this.beginningLocation["vertical"] vertical
     const point_A = eastWest.indexOf(this.beginningLocation["horizontal"])
     const point_B = eastWest.indexOf(his.endingLocation["horizontal"])
-    
-    eastWest.slice(point_A,point_B).length
+
+    return eastWest.slice(point_A,point_B).length
 
 
 
