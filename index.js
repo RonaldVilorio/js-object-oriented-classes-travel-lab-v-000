@@ -17,7 +17,7 @@ class Route{
     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     // return this.endingLocation["vertical"] - this.beginningLocation["vertical"] vertical
     const point_A = eastWest.indexOf(this.beginningLocation["horizontal"])
-    const point_B = eastWest.indexOf(his.endingLocation["horizontal"])
+    const point_B = eastWest.indexOf(this.endingLocation["horizontal"])
     // return point_A
 
     // return eastWest.slice(point_A,point_B).length
