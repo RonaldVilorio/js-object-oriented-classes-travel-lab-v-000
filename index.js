@@ -13,12 +13,7 @@ class Route{
     this.endingLocation = endingLocation
   }
   blocksTravelled(){
-    // debugger
-    if (this.vertical["vertical"] > this.horizontal["vertical"]){
-      return this.vertical["vertical"] - this.horizontal["vertical"]
-    }else if(this.vertical["vertical"] === this.horizontal["vertical"]){
-      return 4
-    }
+
   }
 
 }
