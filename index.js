@@ -27,8 +27,8 @@ class Route{
   }
   estimatedTime(){
     debugger
-    today = Date.now
-    return today ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3
+    today = new Date
+    return today.getHours() >= 22 && today.getHours() <= 24 ? this.blocksTravelled() / 2 : this.blocksTravelled() / 3
     // return this.blocksTravelled() / 2
 
   }
