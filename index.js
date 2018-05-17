@@ -24,8 +24,9 @@ class Route{
     const horizontal = eastWest.slice(point_A,point_B).length
     return vertical + horizontal
 
-
-
+  }
+  estimatedTime(){
+    
   }
 
 }
