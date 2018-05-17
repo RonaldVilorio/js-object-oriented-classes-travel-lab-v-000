@@ -26,7 +26,8 @@ class Route{
 
   }
   estimatedTime(){
-    debugger
+    // debugger
+    return Date.prototype.getHours
     today = new Date
     if (today.getHours() >= 22 && today.getHours() <= 24){
       this.blocksTravelled() / 2
