@@ -30,9 +30,9 @@ class Route{
     // return Date.prototype.getHours
     const today = new Date
     if (today.getHours() >= 22 && today.getHours() <= 24){
-      return this.blocksTravelled() / 2
-    }else {
       return this.blocksTravelled() / 3
+    }else {
+      return this.blocksTravelled() / 2
     }
 
     // return this.blocksTravelled() / 2
