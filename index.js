@@ -35,7 +35,7 @@ class Route{
     if (this.blocksTravelled() > 15) {
       return this.blocksTravelled() / 2
     }else {
-      debugger
+      // debugger
       return this.blocksTravelled() / 3
     }
 
